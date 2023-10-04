@@ -1,0 +1,223 @@
+/* 반응형 */
+@media screen and (max-width: 1430px) {
+    .main .bg .text span {
+        font-size: 150px;
+    }
+
+    #contact .contact-inner p {
+        font-size: 25px;
+    }
+
+} 
+
+@media screen and (max-width: 1200px) {
+    .gallery li .content h2 {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 1140px) {
+
+    .quick {
+        display: none;
+    }
+    .photo {
+        position: relative;
+        padding-left: 250px;
+    }   
+
+    .profile {
+        flex-direction: column;
+        width: 80%;
+    }
+    .photo .photofront {
+        left: 250px;
+    }
+    .profile .introduce {
+        padding-left: 150px;
+    }
+    #about {
+        background-position: 0 -50px;
+    }
+    #port {
+        background-position: -100px 0;
+    }
+    .gallery li {
+        left: -170px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .icon {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .header.down {
+        /* height: 400px; */
+    }
+    .header .header-inner .gnb .fa-bars {
+        display: block;
+    }
+    .profile {
+        width: 90%;
+    }
+    .profile .introduce {
+        padding-left: 220px;
+    }
+
+    .header .header-inner .gnb .depth1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-right: 0px;
+        display: none;
+        background-color: rgba(4, 4, 226, 0.85);
+    }
+    .header .header-inner {
+        width: 100%;
+    }
+    .header.down {
+        height: 0px;
+    }
+    .header.down .header-inner .depth1 > li > a span {
+        top: -1000px;
+    }
+    .header .header-inner .depth1 > li:hover > a {
+        background-color: rgba(100, 100, 255, 0.85);
+        text-shadow: none;
+    }
+
+    .color {
+        color: #fff;
+    }
+    .main .bg .text span {
+        font-size: 100px;
+
+    }
+    .profile {
+        padding-top: 100px;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+    .profile .introduce .skills {
+        padding: 10px 30px 10px 30px;
+    }
+    .gallery li .content {
+        padding: 1rem 10px;
+    }
+
+    .gallery li .content h2 {
+        font-size: 20px;
+    }
+    .gallery li .content p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .profile .introduce .skills {
+        padding: 10px 25px 10px 25px;
+    }
+    .profile {
+        padding-top: 50px;
+    }
+    #contact .contact-inner p {
+        font-size: 20px;
+    }
+    .photo .photofront {
+        left: 210px;
+        width: 300px;
+        height: 500px;
+    }
+    .photo .photoback {
+        width: 300px;
+        height: 500px;
+    }
+    .photo {
+        padding-left: 210px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .profile .introduce .skills {
+        padding: 10px 25px 10px 25px;
+    }
+    #contact .contact-inner p {
+        font-size: 15px;
+    }
+    .main .bg .text span {
+        font-size: 70px;
+    }
+    .photo .photofront {
+        left: 100px;
+    }
+    .photo {
+        padding-left: 70px;
+    }
+    
+    .profile .introduce {
+        padding: 30px 30px 30px 30px;
+        line-height: 50px;
+    }
+    .profile .introduce p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+    .profile .introduce .skills {
+        padding: 10px 5px 10px 5px;
+    }
+    .photo .photofront {
+        left: 50px;
+        width: 250px;
+        height: 400px;
+    }
+    .photo .photoback {
+        width: 250px;
+        height: 400px;
+    }
+    .photo {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /* .icon {
+        width: 15px;
+        height: 15px;
+    } */
+    .profile .introduce .skills {
+        padding: 10px 10px 10px 10px;
+    }
+    .main .bg .text span {
+        font-size: 60px;
+    }
+    .profile .introduce {
+        line-height: 35px;
+    }
+    .profile .introduce p {
+        font-size: 20px;
+    }
+} 

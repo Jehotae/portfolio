@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="https://kit.fontawesome.com/bc82a3e06c.js" crossorigin="anonymous"></script>
+    <script src="js/portfolio.js" defer></script>
+</head>
+<body data-0="background-color: rgb(43, 101, 164)" data-1250="background-color: rgb(43, 101, 164)" data-3000="background-color: rgb(0, 45, 86)">
+    <div class="wrap">
+        <div class="cursor"></div>
+        <nav>
+            <div class="scroller">
+              <div class="scroller--var"></div>
+            </div>
+        </nav>
+        <div class="pop-up">
+            <div class="btn">
+                <button>close</button>
+            </div>
+            <figure>
+                <video src="video/vid1.mp4" controls></video>
+            </figure>
+        </div>
+        <div class="warning" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="300"></div>
+        <div class="shark" data-2100="opacity: 0; right: -10%" data-2300="opacity: 1; right: 1%;" data-2700="opacity: 0"></div>
+        <div class="jelly" data-1000="opacity: 0; top:25%;" data-1100="opacity: 1; top:25%; right: 300px;" data-1200="right: 100px;" data-1300="top:30%;" data-1400="top:35%; right: 150px;" data-1600="top:40%;" data-1800="top:43%; right:200px;" data-1900="top:45%;" data-2000="top:49%; right:200px;" data-2100="top:49%;" data-2400="right:150px; opacity:0;"></div>
+        <header class="header">
+            <div class="header-inner">
+                <nav class="gnb"> 
+                    <ul class="depth1">
+                        <li><a href="#home">HOME<span></span><span></span></a></li>
+                        <li><a href="#about">ABOUT ME<span></span><span></span></a></li>
+                        <li><a href="#port">PORTFOLIO<span></span><span></span></a></li>
+                        <li><a href="#contact">CONTACT<span></span><span></span></a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars"></i>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-inner">
+                <div class="item" id="home">
+                    <div class="bg">
+                        <!-- <video autoplay muted loop>
+                            <source src="video/videobg.mp4" type="video/mp4">
+                        </video> -->
+                        <div class="text">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" id="about">
+                    <div class="profile">
+                        <div class="photo">
+                            <div class="photofront"></div>
+                            <div class="photoback"></div>
+                        </div>
+                        <div class="introduce">
+                            <p>안녕하세요 제호태입니다</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, molestiae impedit odio deserunt eveniet doloribus, iusto eos facilis fuga sit nemo! Et aperiam sequi minima rerum quas porro. Iusto, in!</p>
+                            <br>
+                            <p>My skills</p>
+                            <div class="skills">
+                                <div class="icon con1"></div>
+                                <div class="icon con2"></div>
+                                <div class="icon con3"></div>
+                                <div class="icon con4"></div>
+                                <div class="icon con5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" id="port">
+                    <ul class="gallery">
+                        <li>
+                            <div class="content">
+                                <h2>포트폴리오1</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta</p>
+                            </div>
+                            <figure>
+                                <video src="video/video1.mp4" loop muted></video>
+                            </figure>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <h2>포트폴리오2</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta</p>
+                            </div>
+                            <figure>
+                                <video src="video/video2.mp4" loop muted></video>
+                            </figure>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <h2>포트폴리오3</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta</p>
+                            </div>
+                            <figure>
+                                <video src="video/video3.mp4" loop muted></video>
+                            </figure>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <h2>포트폴리오4</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta</p>
+                            </div>
+                            <figure>
+                                <video src="video/videobg.mp4" loop muted></video>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item" id="contact">
+                    <div class="contact-inner">
+                        <p>wpghxo@gmail.com</p>
+                        <p>010-8555-6400</p>
+                        <p>Copyright &copy; Je Hotae portfolio, All right reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav class="quick">
+            <ul class="depth2">
+                <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#port"><i class="fa-solid fa-folder-open"></i></a></li>
+                <li><a href="#contact"><i class="fa-solid fa-handshake"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <script>
+        skrollr.init();
+        AOS.init();
+    </script>
+</body>
+</html>
