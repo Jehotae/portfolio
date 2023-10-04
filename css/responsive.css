@@ -204,10 +204,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    /* .icon {
-        width: 15px;
-        height: 15px;
-    } */
+
     .profile .introduce .skills {
         padding: 10px 10px 10px 10px;
     }
@@ -219,5 +216,17 @@
     }
     .profile .introduce p {
         font-size: 20px;
+    }
+
+    #about {
+        background: url('../images/about.png') no-repeat -300px -330px/cover;
+    }
+
+    #port {
+        background: url('../images/port.png') no-repeat -1900px -280px/cover;
+    }
+
+    .gallery li {
+        left: -100px;
     }
 } 
