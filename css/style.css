@@ -399,7 +399,7 @@ li:not(:first-child).on {
 
 /* main - port */
 #port {
-    background: url('../images/port.png') no-repeat -100px -100px/contain;
+    background: url('../images/port.png') no-repeat -100px -150px/contain;
 }
 
 .gallery {
